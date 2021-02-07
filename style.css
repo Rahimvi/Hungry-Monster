@@ -1,0 +1,28 @@
+#meal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+.meals {
+    width: 100%;
+    text-align: center;
+    border: 2px solid orangered;
+    border-radius: 5px;
+}
+.meals img {
+    width: 100%;
+}
+.single-meals {
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+.single-meals img {
+    width: 400px;
+}
+.hungry h1 {
+    background-color: #dc3545;
+    color: #fff;
+}
